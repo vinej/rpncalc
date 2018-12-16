@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1544314110 source:/home/yanni/Documents/code/rpncalc/stack.c
+	"stack.h"
+	<stdlib.h>
+	<stdio.h>
+
+1544291838 /home/yanni/Documents/code/rpncalc/stack.h
+	<stdio.h>
+
+1545001161 source:/home/yanni/Documents/code/rpncalc/command.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"command.h"
+
+1544476990 /home/yanni/Documents/code/rpncalc/command.h
+
+1544314876 source:/home/yanni/Documents/code/rpncalc/fstack.c
+	"fstack.h"
+	<stdlib.h>
+	<stdio.h>
+
+1544314014 /home/yanni/Documents/code/rpncalc/fstack.h
+	<stdio.h>
+
+1544294950 source:/home/yanni/Documents/code/rpncalc/str_builder.c
+	<ctype.h>
+	<stdbool.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"str_builder.h"
+
+1544271844 /home/yanni/Documents/code/rpncalc/str_builder.h
+	<stddef.h>
+
+1545001187 source:/home/yanni/Documents/code/rpncalc/hpcmd.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<math.h>
+	"str_builder.h"
+	"stack.h"
+	"fstack.h"
+	"hpcmd.h"
+	"command.h"
+	"command.c"
+
+1544312298 /home/yanni/Documents/code/rpncalc/hpcmd.h
+
+1545001161 /home/yanni/Documents/code/rpncalc/command.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"command.h"
+

@@ -379,6 +379,7 @@ static void notfunc()
 	push(~(unsigned MYINT) pop());
 }
 
+/*
 static void eqfunc()
 {
 	MYFLT num2 = pop();
@@ -414,6 +415,7 @@ static void ltefunc()
 	MYFLT num2 = pop();
 	push(pop() <= num2);
 }
+*/
 
 static void rclfunc()
 {
