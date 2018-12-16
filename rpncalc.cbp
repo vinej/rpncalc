@@ -31,9 +31,27 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="command.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="command.h" />
+		<Unit filename="fstack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fstack.h" />
+		<Unit filename="hpcmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hpcmd.h" />
+		<Unit filename="stack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stack.h" />
+		<Unit filename="stackinfo.h" />
+		<Unit filename="str_builder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="str_builder.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

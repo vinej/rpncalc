@@ -6,7 +6,6 @@
 extern MYFLT data_stack[];
 extern MYINT data_stack_ptr;
 extern MYFLT reg[];
-extern MYINT lbl[];
 
 static void push(MYFLT a)
 {
@@ -379,7 +378,6 @@ static void notfunc()
 	push(~(unsigned MYINT) pop());
 }
 
-/*
 static void eqfunc()
 {
 	MYFLT num2 = pop();
@@ -415,7 +413,30 @@ static void ltefunc()
 	MYFLT num2 = pop();
 	push(pop() <= num2);
 }
-*/
+
+
+static void bitorfunc() {
+	MYINT num2 = (MYINT)pop();
+	MYINT num1 = (MYINT)pop();
+	push(num1 | num2);
+}
+
+static void bitandfunc() {
+	MYINT num2 = (MYINT)pop();
+	MYINT num1 = (MYINT)pop();
+	push(num1 & num2);
+}
+
+static void bitnotfunc() {
+	MYINT num1 = (MYINT)pop();
+	push(~num1);
+}
+
+static void bitxorfunc() {
+	MYINT num2 = (MYINT)pop();
+	MYINT num1 = (MYINT)pop();
+	push(num1 ^ num2);
+}
 
 static void rclfunc()
 {

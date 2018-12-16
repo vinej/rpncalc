@@ -34,7 +34,8 @@
 1544271844 /home/yanni/Documents/code/rpncalc/str_builder.h
 	<stddef.h>
 
-1545001187 source:/home/yanni/Documents/code/rpncalc/hpcmd.c
+1545003656 source:/home/yanni/Documents/code/rpncalc/hpcmd.c
+	<stdlib.h>
 	<stdio.h>
 	<ctype.h>
 	<string.h>
