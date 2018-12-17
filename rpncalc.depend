@@ -7,7 +7,7 @@
 1544291838 /home/yanni/Documents/code/rpncalc/stack.h
 	<stdio.h>
 
-1545001161 source:/home/yanni/Documents/code/rpncalc/command.c
+1544895658 source:/home/yanni/Documents/code/rpncalc/command.c
 	<stdlib.h>
 	<stdio.h>
 	<math.h>
@@ -34,18 +34,7 @@
 1544271844 /home/yanni/Documents/code/rpncalc/str_builder.h
 	<stddef.h>
 
-1545003656 source:/home/yanni/Documents/code/rpncalc/hpcmd.c
-	<stdlib.h>
-	<stdio.h>
-	<ctype.h>
-	<string.h>
-	<math.h>
-	"str_builder.h"
-	"stack.h"
-	"fstack.h"
-	"hpcmd.h"
-	"command.h"
-	"command.c"
+1544866438 source:/home/yanni/Documents/code/rpncalc/hpcmd.c
 
 1544312298 /home/yanni/Documents/code/rpncalc/hpcmd.h
 
